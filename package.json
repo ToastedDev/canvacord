@@ -1,5 +1,5 @@
 {
-  "name": "canvacord",
+  "name": "@nottca/canvacord",
   "version": "5.4.10",
   "description": "Powerful image manipulation package for beginners.",
   "main": "index.js",
@@ -61,5 +61,7 @@
     "@types/node": "^16.4.7",
     "typescript": "^4.7.4"
   },
-  "packageManager": "yarn@3.6.0"
+  "publishConfig": {
+    "access": "public"
+  }
 }
