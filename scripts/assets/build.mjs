@@ -54,6 +54,7 @@ export async function build(force = false) {
 
             writer.on("finish", () => {
                 console.log(`${chalk.greenBright("[Canvacord]")} ${chalk.whiteBright(`Successfully downloaded ${chalk.cyanBright(name)}`)}`);
+                process.exit()
             });
         }
     }
